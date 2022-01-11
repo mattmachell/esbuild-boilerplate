@@ -1,0 +1,19 @@
+{
+  "name": "js-build",
+  "version": "1.0.0",
+  "description": "Minimal dependency simple sass and js build",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.14.10",
+    "esbuild-sass-plugin": "^2.0.1",
+    "govuk-frontend": "^4.0.0",
+    "sass": "^1.46.0"
+  }
+}
